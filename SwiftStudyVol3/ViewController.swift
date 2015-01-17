@@ -10,9 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ButtonA: UIButton!
+    @IBOutlet weak var ButtonB: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewDidLayoutSubviews() {
+        self.navigationItem.title = "Swift Study Vol3"
+        
+        ButtonA.center.x = self.view.center.x
+        ButtonB.center.x = self.view.center.x
     }
 
     override func didReceiveMemoryWarning() {

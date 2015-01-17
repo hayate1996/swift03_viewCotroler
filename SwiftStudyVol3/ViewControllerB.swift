@@ -11,7 +11,7 @@ import Foundation
 
 class ViewControllerB : UIViewController {
     override func viewWillAppear(animated: Bool) {
-        self.view.backgroundColor = .greenColor();
+        self.view.backgroundColor = .greenColor()
         super.viewWillAppear(animated)
     }
 }
