@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var ButtonA: UIButton!
-    @IBOutlet weak var ButtonB: UIButton!
+    @IBOutlet weak var BlueButton: UIButton!
+    @IBOutlet weak var RedButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,8 +21,8 @@ class ViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         self.navigationItem.title = "Swift Study Vol3"
         
-        ButtonA.center.x = self.view.center.x
-        ButtonB.center.x = self.view.center.x
+        BlueButton.center.x = self.view.center.x
+        RedButton.center.x = self.view.center.x
     }
 
     override func didReceiveMemoryWarning() {

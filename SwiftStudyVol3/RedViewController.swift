@@ -1,5 +1,5 @@
 //
-//  ViewControllerA.swift
+//  RedViewController.swift
 //  SwiftStudyVol3
 //
 //  Created by Hiromasa Nagamine on 1/17/15.
@@ -9,9 +9,9 @@
 import UIKit
 import Foundation
 
-class ViewControllerA : UIViewController {
+class RedViewController : UIViewController {
     override func viewWillAppear(animated: Bool) {
-        self.view.backgroundColor = .yellowColor()
+        self.view.backgroundColor = .redColor()
         super.viewWillAppear(animated)
     }
 }

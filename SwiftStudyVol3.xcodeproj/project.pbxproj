@@ -14,8 +14,8 @@
 		A61671871A6A2B8700AF0163 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61671861A6A2B8700AF0163 /* Images.xcassets */; };
 		A616718A1A6A2B8700AF0163 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A61671881A6A2B8700AF0163 /* LaunchScreen.xib */; };
 		A61671961A6A2B8700AF0163 /* SwiftStudyVol3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61671951A6A2B8700AF0163 /* SwiftStudyVol3Tests.swift */; };
-		A61671A01A6A2BB300AF0163 /* ViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = A616719F1A6A2BB300AF0163 /* ViewControllerA.swift */; };
-		A61671A21A6A2BBE00AF0163 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61671A11A6A2BBE00AF0163 /* ViewControllerB.swift */; };
+		A61671A01A6A2BB300AF0163 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A616719F1A6A2BB300AF0163 /* BlueViewController.swift */; };
+		A61671A21A6A2BBE00AF0163 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61671A11A6A2BBE00AF0163 /* RedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,8 @@
 		A616718F1A6A2B8700AF0163 /* SwiftStudyVol3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStudyVol3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61671941A6A2B8700AF0163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A61671951A6A2B8700AF0163 /* SwiftStudyVol3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudyVol3Tests.swift; sourceTree = "<group>"; };
-		A616719F1A6A2BB300AF0163 /* ViewControllerA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerA.swift; sourceTree = "<group>"; };
-		A61671A11A6A2BBE00AF0163 /* ViewControllerB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		A616719F1A6A2BB300AF0163 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		A61671A11A6A2BBE00AF0163 /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 			children = (
 				A616717C1A6A2B8700AF0163 /* AppDelegate.swift */,
 				A61671811A6A2B8700AF0163 /* ViewController.swift */,
-				A616719F1A6A2BB300AF0163 /* ViewControllerA.swift */,
-				A61671A11A6A2BBE00AF0163 /* ViewControllerB.swift */,
+				A616719F1A6A2BB300AF0163 /* BlueViewController.swift */,
+				A61671A11A6A2BBE00AF0163 /* RedViewController.swift */,
 				A61671831A6A2B8700AF0163 /* Main.storyboard */,
 				A61671861A6A2B8700AF0163 /* Images.xcassets */,
 				A61671881A6A2B8700AF0163 /* LaunchScreen.xib */,
@@ -221,9 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A61671A01A6A2BB300AF0163 /* ViewControllerA.swift in Sources */,
+				A61671A01A6A2BB300AF0163 /* BlueViewController.swift in Sources */,
 				A61671821A6A2B8700AF0163 /* ViewController.swift in Sources */,
-				A61671A21A6A2BBE00AF0163 /* ViewControllerB.swift in Sources */,
+				A61671A21A6A2BBE00AF0163 /* RedViewController.swift in Sources */,
 				A616717D1A6A2B8700AF0163 /* AppDelegate.swift in Sources */,
 				A61671801A6A2B8700AF0163 /* SwiftStudyVol3.xcdatamodeld in Sources */,
 			);
@@ -417,6 +417,7 @@
 				A616719B1A6A2B8700AF0163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A616719C1A6A2B8700AF0163 /* Build configuration list for PBXNativeTarget "SwiftStudyVol3Tests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +426,7 @@
 				A616719E1A6A2B8700AF0163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

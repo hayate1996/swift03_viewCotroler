@@ -1,5 +1,5 @@
 //
-//  ViewControllerB.swift
+//  BlueViewController.swift
 //  SwiftStudyVol3
 //
 //  Created by Hiromasa Nagamine on 1/17/15.
@@ -9,9 +9,9 @@
 import UIKit
 import Foundation
 
-class ViewControllerB : UIViewController {
+class BlueViewController : UIViewController {
     override func viewWillAppear(animated: Bool) {
-        self.view.backgroundColor = .greenColor()
+        self.view.backgroundColor = .blueColor()
         super.viewWillAppear(animated)
     }
 }

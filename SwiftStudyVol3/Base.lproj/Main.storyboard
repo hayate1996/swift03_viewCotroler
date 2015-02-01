@@ -16,20 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="24f-3E-q3r">
+                                <rect key="frame" x="285" y="121" width="31" height="30"/>
+                                <state key="normal" title="Blue"/>
+                                <connections>
+                                    <segue destination="xv2-G0-NFB" kind="show" id="AEE-ik-Gbn"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dph-tZ-W7E">
-                                <rect key="frame" x="217" y="200" width="164" height="30"/>
-                                <state key="normal" title="ViewControllerB (Green)">
+                                <rect key="frame" x="285" y="202" width="30" height="30"/>
+                                <state key="normal" title="Red">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3nC-xm-ah8" kind="show" id="U4A-L8-BvX"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="24f-3E-q3r">
-                                <rect key="frame" x="217" y="121" width="166" height="30"/>
-                                <state key="normal" title="ViewControllerA (Yellow)"/>
-                                <connections>
-                                    <segue destination="xv2-G0-NFB" kind="show" id="peT-M0-sSQ"/>
+                                    <segue destination="3nC-xm-ah8" kind="show" id="Cuh-Dj-vDW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -37,18 +37,18 @@
                     </view>
                     <navigationItem key="navigationItem" id="xgt-Yk-ECU"/>
                     <connections>
-                        <outlet property="ButtonA" destination="24f-3E-q3r" id="7Wh-G1-Ud1"/>
-                        <outlet property="ButtonB" destination="dph-tZ-W7E" id="pcH-0m-ZpC"/>
+                        <outlet property="BlueButton" destination="24f-3E-q3r" id="Mr7-KI-pNi"/>
+                        <outlet property="RedButton" destination="dph-tZ-W7E" id="8gV-Xe-3Yy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="372" y="361"/>
         </scene>
-        <!--View ControllerA-->
+        <!--Blue View Controller-->
         <scene sceneID="BFW-3s-T4U">
             <objects>
-                <viewController id="xv2-G0-NFB" customClass="ViewControllerA" customModule="SwiftStudyVol3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xv2-G0-NFB" customClass="BlueViewController" customModule="SwiftStudyVol3" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DEc-py-gEb"/>
                         <viewControllerLayoutGuide type="bottom" id="b8b-Ec-Gtj"/>
@@ -63,10 +63,10 @@
             </objects>
             <point key="canvasLocation" x="1088" y="361"/>
         </scene>
-        <!--View ControllerB-->
+        <!--Red View Controller-->
         <scene sceneID="1Jr-WM-fbZ">
             <objects>
-                <viewController id="3nC-xm-ah8" customClass="ViewControllerB" customModule="SwiftStudyVol3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3nC-xm-ah8" customClass="RedViewController" customModule="SwiftStudyVol3" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ERI-c7-z3z"/>
                         <viewControllerLayoutGuide type="bottom" id="1c9-l6-XcC"/>
